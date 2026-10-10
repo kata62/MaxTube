@@ -83,6 +83,8 @@ jobs:
       enable_ryd: ${{ inputs.enable_ryd }}
       enable_ytabc: ${{ inputs.enable_ytabc }}
       enable_demc: ${{ inputs.enable_demc }}
+      enable_ytweaks: ${{ inputs.enable_ytweaks }}
+      enable_gonerino: ${{ inputs.enable_gonerino }}
       tweak_version: ${{ inputs.tweak_version }}
 
   package:
