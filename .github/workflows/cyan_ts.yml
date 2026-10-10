@@ -85,8 +85,9 @@ jobs:
       enable_demc: ${{ inputs.enable_demc }}
       enable_ytweaks: ${{ inputs.enable_ytweaks }}
       enable_gonerino: ${{ inputs.enable_gonerino }}
+      enable_youspeed: ${{ inputs.enable_youspeed }}
+      enable_YTLCM: ${{ inputs.enable_YTLCM }}
       tweak_version: ${{ inputs.tweak_version }}
-
   package:
     name: Generate Cyan/TrollFools
     runs-on: macos-latest
