@@ -99,6 +99,18 @@ on:
         required: true
         default: true
 
+      enable_ycq:
+        description: "Integrate YouCopyURL / YCQ"
+        type: boolean
+        required: true
+        default: true
+
+      enable_ys:
+        description: "Integrate YouShorts"
+        type: boolean
+        required: true
+        default: true
+
       tweak_version:
         description: "The version of the tweak to use. Enter the version manually from dayanch96/YTLite/releases or leave default"
         default: "5.2b4"
@@ -139,6 +151,8 @@ jobs:
       enable_YouGetCaption: ${{ inputs.enable_YouGetCaption }}
       enable_ytpf: ${{ inputs.enable_ytpf }}
       enable_ytpfBETA: ${{ inputs.enable_ytpfBETA }}
+      enable_ycq: ${{ inputs.enable_ycq }}
+      enable_ys: ${{ inputs.enable_ys }}
       tweak_version: ${{ inputs.tweak_version }}
 
   package:
